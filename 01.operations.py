@@ -34,3 +34,9 @@ print(5 or 3) #5
 print(3 or 0) #3
 print(0 or 3) #3
 print(0 or 0) #0
+
+# Containment Test
+# in 연산자를 통해 요소가 속해있는지 여부를 확인할 수 있다.
+print('----int----')
+print('a' in 'apple')
+print(1 in [1,2,3])
