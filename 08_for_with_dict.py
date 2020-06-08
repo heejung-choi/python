@@ -15,14 +15,16 @@ print("----------------------")
 # 이렇게 뽑아도 되지만, 다르게 접근한다.
 
 # dict.values 를 사용한다.
+# keys
 for member in classroom.keys():
     print(member)
-# key
 print("----------------------")
 
+# values
 for member in classroom.values():
     print(member)
 print("----------------------")
 
+# items
 for key, value in classroom.items():
     print(key, value)
