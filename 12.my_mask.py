@@ -26,4 +26,4 @@ for store in stores:
         color = 'red'
     else:
         color :'grey'
-print(store.get('name')+color)
+    print(store.get('name')+color)
